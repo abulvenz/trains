@@ -1,4 +1,8 @@
-@import 'normalize.css';
+@import 'node_modules/normalize.css/normalize.css';
 svg {
-    background-color: rgba(29, 119, 21, 0.863);
+    background-color: #009A17;
+}
+
+body {
+    overflow: scroll;
 }

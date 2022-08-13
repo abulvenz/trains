@@ -267,6 +267,16 @@ console.log(nextAvailableType(tracks[0].type))
 
 const form = track => trackTypes().find(category => category.type === track.type);
 
+const connectorC = vnode => {
+    return {
+        oninit: vnode => {},
+
+        view: vnode => {
+
+        }
+    }
+};
+
 const track = vnode => {
     return {
         view: vnode => {
@@ -336,8 +346,8 @@ document.body.addEventListener('keyup', e => {
             tracks.push(currentPart)
             currentPart = {
                 type: nextAvailableType(currentPart.type),
-                x: 0,
-                y: 0,
+                x: currentPart.x,
+                y: currentPart.y,
                 angle: currentPart.angle
             };
             break;

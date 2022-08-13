@@ -1,0 +1,63 @@
+[{
+    "id": "id24",
+    "type": null,
+    "position": { "x": 0, "y": 0, "r": 0 },
+    "connectors": [{ "id": "id25", "position": { "x": -25, "y": 10, "r": 0 }, "gender": "female", "connections": { "type": "fixed", "id": "id27" } },
+        { "id": "id26", "position": { "x": -25, "y": -10, "r": 0 }, "gender": "female", "connections": { "type": "fixed", "id": "id27" } },
+        { "id": "id27", "position": { "x": 25, "y": 0, "r": 0 }, "gender": "male", "connections": { "type": "switch", "ids": ["id25", "id26"] } }
+    ]
+}, {
+    "id": "id28",
+    "type": null,
+    "position": { "x": 0, "y": 0, "r": 0 },
+    "connectors": [{ "id": "id29", "position": { "x": -25, "y": 10, "r": 0 }, "gender": "female", "connections": { "type": "fixed", "id": "id31" } },
+        { "id": "id30", "position": { "x": -25, "y": -10, "r": 0 }, "gender": "female", "connections": { "type": "fixed", "id": "id31" } },
+        { "id": "id31", "position": { "x": 25, "y": 0, "r": 0 }, "gender": "male", "connections": { "type": "switch", "ids": ["id29", "id30"] } }
+    ]
+}, {
+    "id": "id32",
+    "type": null,
+    "position": { "x": 0, "y": 0, "r": 0 },
+    "connectors": [{ "id": "id33", "position": { "x": -25, "y": 10, "r": 0 }, "gender": "female", "connections": { "type": "fixed", "id": "id35" } },
+        { "id": "id34", "position": { "x": -25, "y": -10, "r": 0 }, "gender": "female", "connections": { "type": "fixed", "id": "id35" } },
+        { "id": "id35", "position": { "x": 25, "y": 0, "r": 0 }, "gender": "male", "connections": { "type": "switch", "ids": ["id33", "id34"] } }
+    ]
+}, {
+    "id": "id36",
+    "type": null,
+    "position": { "x": 0, "y": 0, "r": 0 },
+    "connectors": [{ "id": "id37", "position": { "x": -25, "y": 10, "r": 0 }, "gender": "male", "connections": { "type": "fixed", "id": "id39" } },
+        { "id": "id38", "position": { "x": -25, "y": -10, "r": 0 }, "gender": "male", "connections": { "type": "fixed", "id": "id39" } },
+        { "id": "id39", "position": { "x": 25, "y": 0, "r": 0 }, "gender": "female", "connections": { "type": "switch", "ids": ["id37", "id38"] } }
+    ]
+}, {
+    "id": "id40",
+    "type": null,
+    "position": { "x": 0, "y": 0, "r": 0 },
+    "connectors": [{ "id": "id41", "position": { "x": -25, "y": 10, "r": 0 }, "gender": "male", "connections": { "type": "fixed", "id": "id43" } },
+        { "id": "id42", "position": { "x": -25, "y": -10, "r": 0 }, "gender": "male", "connections": { "type": "fixed", "id": "id43" } },
+        { "id": "id43", "position": { "x": 25, "y": 0, "r": 0 }, "gender": "female", "connections": { "type": "switch", "ids": ["id41", "id42"] } }
+    ]
+}, {
+    "id": "id44",
+    "type": null,
+    "position": { "x": 0, "y": 0, "r": 0 },
+    "connectors": [{ "id": "id45", "position": { "x": -25, "y": 10, "r": 0 }, "gender": "male", "connections": { "type": "fixed", "id": "id47" } },
+        { "id": "id46", "position": { "x": -25, "y": -10, "r": 0 }, "gender": "male", "connections": { "type": "fixed", "id": "id47" } },
+        { "id": "id47", "position": { "x": 25, "y": 0, "r": 0 }, "gender": "female", "connections": { "type": "switch", "ids": ["id45", "id46"] } }
+    ]
+}, {
+    "id": "id48",
+    "type": null,
+    "position": { "x": 0, "y": 0, "r": 0 },
+    "connectors": [{ "id": "id49", "position": { "x": 1.5308084989341915e-15, "y": 25, "r": 0 }, "gender": "female", "connections": { "type": "fixed", "id": "id50" } },
+        { "id": "id50", "position": { "x": 17.67766952966369, "y": 17.677669529663685, "r": 45 }, "gender": "male", "connections": { "type": "fixed", "id": "id49" } }
+    ]
+}, {
+    "id": "id51",
+    "type": null,
+    "position": { "x": 0, "y": 0, "r": 0 },
+    "connectors": [{ "id": "id52", "position": { "x": 1.5308084989341915e-15, "y": 25, "r": 0 }, "gender": "female", "connections": { "type": "fixed", "id": "id53" } },
+        { "id": "id53", "position": { "x": 17.67766952966369, "y": 17.677669529663685, "r": 45 }, "gender": "male", "connections": { "type": "fixed", "id": "id52" } }
+    ]
+}]
