@@ -1,4 +1,3 @@
-import { createVacuumImpedance } from 'mathjs/lib/factoriesAny';
 import sprites from './sprites';
 import fn from './fn';
 import images from './images';

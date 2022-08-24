@@ -1,9 +1,6 @@
-import { createVacuumImpedance } from 'mathjs/lib/factoriesAny';
 import sprites from './sprites';
 import fn from './fn';
 import images from './images';
-import {get } from 'mithril/route';
-import { json } from 'mathjs/lib/entry/deprecatedAny';
 
 const use = (v, fn) => fn(v);
 
